@@ -1,5 +1,7 @@
 def map(array)
   array = []
+  i = 0 
+  
   
 end 
 
