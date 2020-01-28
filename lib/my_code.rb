@@ -5,6 +5,7 @@ def map(array)
     array << (source_array[i] * -1)
     i += 1 
   end 
+  
 yield(array)
 array 
 end 
