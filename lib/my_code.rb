@@ -9,13 +9,13 @@ array
 end
 
 def reduce(a, b=nil) 
-    if b 
-      sum = b 
-      i = 0
-    else 
-      sum = a[0]
-      i = 1 
-    end 
+ if b 
+   sum = b 
+   i = 0
+ else 
+   sum = a[0]
+   i = 1 
+ end 
 while i < a.length do 
   sum = yield(n1, a[i])
   i += 1 
