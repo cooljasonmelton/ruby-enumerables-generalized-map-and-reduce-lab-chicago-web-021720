@@ -12,7 +12,6 @@ def reduce(a, b = nil)
   total = b
   i = 0 
   while i < a.length do 
-    total += (yield(a[i]))
     i += 1 
   end 
   total 
