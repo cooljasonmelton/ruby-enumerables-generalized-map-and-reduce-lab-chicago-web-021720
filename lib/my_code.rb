@@ -18,4 +18,7 @@ def reduce(a, b=nil)
     end 
 while i < a.length do 
   sum = yield(n1, a[i])
+  i += 1 
+end 
+sum 
 end 
