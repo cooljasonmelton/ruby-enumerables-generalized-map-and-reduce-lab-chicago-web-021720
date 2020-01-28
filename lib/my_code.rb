@@ -2,9 +2,11 @@ def map(array)
   
 end 
 
-map(array) do |my own map|
+def reduce(array)
   
 end 
+
+
 
 
 def map_to_negativize(source_array)
