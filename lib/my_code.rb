@@ -10,12 +10,12 @@ end
 
 def reduce(a, b=nil) 
     if b 
-      n1 = b 
+      sum = b 
       i = 0
     else 
-      n2 = a[0]
+      sum = a[0]
       i = 1 
     end 
 while i < a.length do 
-  yield(n1, a[i])
+  sum = yield(n1, a[i])
 end 
