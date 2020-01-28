@@ -10,7 +10,7 @@ yield(array)
 array 
 end 
 
-def reduce(array)
+def reduce(array, start = 0)
   
 end
 
