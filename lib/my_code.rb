@@ -8,11 +8,14 @@ def map(input)
 array
 end
 
-def reduce(a, b = nil) 
-  total = b
-  i = 0 
-  while i < a.length do 
-    i += 1 
-  end 
-  total 
+def reduce(a, b=nil) 
+    if b 
+      n1 = b 
+      i = 0
+    else 
+      n2 = a[0]
+      i = 1 
+    end 
+while i < a.length do 
+  yield(n1, a[i])
 end 
